@@ -204,5 +204,20 @@ internal class Program
         //Pega a data atual
         data = DateTime.Now;
         Console.WriteLine(data);
+
+        //para atribuir uma data - ano, mês, dia, hora, minutos, segundos
+        data = new DateTime(2020, 10, 12, 8, 23, 14);
+
+        //obter as informações de forma separada
+        Console.WriteLine(data.Year);
+        Console.WriteLine(data.Month);
+        Console.WriteLine(data.Day);
+        Console.WriteLine(data.Hour);
+        Console.WriteLine(data.Minute);
+        Console.WriteLine(data.Second);
+
+        //descobrir o dia da semana
+        Console.WriteLine(data.DayOfWeek);
+
     }
 }
