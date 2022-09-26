@@ -4,6 +4,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+
+        /*Módulo Strings*/
+
         // var id = Guid.NewGuid();
         // id.ToString();
 
