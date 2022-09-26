@@ -194,8 +194,15 @@ internal class Program
 
     static void Datas()
     {
+
+        //se não inicializar pega um  valor padrão
         Console.Clear();
+
         var data = new DateTime();
+        Console.WriteLine(data);
+
+        //Pega a data atual
+        data = DateTime.Now;
         Console.WriteLine(data);
     }
 }
